@@ -17,7 +17,102 @@ mca1630@mca-pc102:~/gitfinal$ gedit myProfile
 mca1630@mca-pc102:~/gitfinal$ gedit myFav
 mca1630@mca-pc102:~/gitfinal$ gedit myHomeTown 
 
-
+14)
 mca1630@mca-pc102:~/gitfinal$ git config --global user.name "jumanaop"
 mca1630@mca-pc102:~/gitfinal$ git config --global user.email opjumana@gmail.com
+
+15)
+mca1630@mca-pc102:~/gitfinal$ git init
+Initialized empty Git repository in /var/nfs/.home/mca2016/mca1630/gitfinal/.git/
+mca1630@mca-pc102:~/gitfinal$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	myFav
+	myHomeTown
+	myProfile
+	myoutput
+	myoutput~
+	projA/
+	projB/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+16)
+mca1630@mca-pc102:~/gitfinal$ git add *
+mca1630@mca-pc102:~/gitfinal$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   myFav
+	new file:   myHomeTown
+	new file:   myProfile
+	new file:   myoutput
+	new file:   myoutput~
+	new file:   projA/projDetails
+	new file:   projA/projstatus
+	new file:   projB/projDetails
+	new file:   projB/projSTATUS
+
+
+
+17)
+mca1630@mca-pc102:~/gitfinal$ git commit -m "first commit"
+[master (root-commit) 81bb741] first commit
+ 9 files changed, 51 insertions(+)
+ create mode 100644 myFav
+ create mode 100644 myHomeTown
+ create mode 100644 myProfile
+ create mode 100644 myoutput
+ create mode 100644 myoutput~
+ create mode 100644 projA/projDetails
+ create mode 100644 projA/projstatus
+ create mode 100644 projB/projDetails
+ create mode 100644 projB/projSTATUS
+
+
+mca1630@mca-pc102:~/gitfinal$ git log
+commit 81bb7418c9637a925730886f5182288bcb4edf9a
+Author: jumanaop <opjumana@gmail.com>
+Date:   Mon Feb 19 11:21:27 2018 +0530
+
+    first commit
+
+
+
+mca1630@mca-pc102:~/gitfinal$ git show
+commit 81bb7418c9637a925730886f5182288bcb4edf9a
+Author: jumanaop <opjumana@gmail.com>
+Date:   Mon Feb 19 11:21:27 2018 +0530
+
+    first commit
+
+diff --git a/myFav b/myFav
+new file mode 100644
+index 0000000..ccfcc8a
+--- /dev/null
++++ b/myFav
+@@ -0,0 +1 @@
++my favorate game is...
+diff --git a/myHomeTown b/myHomeTown
+new file mode 100644
+index 0000000..447e810
+--- /dev/null
++++ b/myHomeTown
+@@ -0,0 +1 @@
++MY HOME TOWN IS....
+diff --git a/myProfile b/myProfile
+new file mode 100644
+index 0000000..4225cf9
+:
+
 

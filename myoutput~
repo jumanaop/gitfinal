@@ -14,8 +14,10 @@ mca1630@mca-pc102:~/gitfinal/projB$ gedit projDetails
 mca1630@mca-pc102:~/gitfinal/projB$ gedit projSTATUS
 mca1630@mca-pc102:~/gitfinal/projB$ cd ..
 mca1630@mca-pc102:~/gitfinal$ gedit myProfile
-
 mca1630@mca-pc102:~/gitfinal$ gedit myFav
 mca1630@mca-pc102:~/gitfinal$ gedit myHomeTown 
-mca1630@mca-pc102:~/gitfinal$ git config
+
+
+mca1630@mca-pc102:~/gitfinal$ git config --global user.name "jumanaop"
+mca1630@mca-pc102:~/gitfinal$ git config --global user.email opjumana@gmail.com
 
