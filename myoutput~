@@ -1,0 +1,21 @@
+mca1630@mca-pc102:~$ cd gitfinal
+mca1630@mca-pc102:~/gitfinal$ mkdir projA
+mca1630@mca-pc102:~/gitfinal$ cd projA
+mca1630@mca-pc102:~/gitfinal/projA$ gedit projstatus
+mca1630@mca-pc102:~/gitfinal/projA$ gedit projDetails
+mca1630@mca-pc102:~/gitfinal/projA$ cd ..
+mca1630@mca-pc102:~/gitfinal$ cd projB
+bash: cd: projB: No such file or directory
+mca1630@mca-pc102:~/gitfinal$ mkdir projB
+mca1630@mca-pc102:~/gitfinal$ cd projb
+bash: cd: projb: No such file or directory
+mca1630@mca-pc102:~/gitfinal$ cd projB
+mca1630@mca-pc102:~/gitfinal/projB$ gedit projDetails
+mca1630@mca-pc102:~/gitfinal/projB$ gedit projSTATUS
+mca1630@mca-pc102:~/gitfinal/projB$ cd ..
+mca1630@mca-pc102:~/gitfinal$ gedit myProfile
+
+mca1630@mca-pc102:~/gitfinal$ gedit myFav
+mca1630@mca-pc102:~/gitfinal$ gedit myHomeTown 
+mca1630@mca-pc102:~/gitfinal$ git config
+
